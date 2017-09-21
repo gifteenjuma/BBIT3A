@@ -31,7 +31,7 @@
         android:layout_below="@+id/username"
         android:layout_alignRight="@+id/submit"
         android:layout_alignEnd="@+id/signup"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/marginTop"
         />
 
     <Button
