@@ -15,9 +15,9 @@
         android:id="@+id/username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingRight="20dp"
-        android:hint="username"
-        android:layout_marginTop="10dp"
+        android:paddingRight="@dime/paddingRight"
+        android:hint="@string/username"
+        android:layout_marginTop="@dimen/marginTop"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -27,7 +27,7 @@
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="password"
+        android:hint="@string/password"
         android:layout_below="@+id/username"
         android:layout_alignRight="@+id/submit"
         android:layout_alignEnd="@+id/signup"
@@ -41,11 +41,11 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginEnd="@dimen/marginEnd"
+        android:layout_marginRight="@dimen/marginRight"
         android:background="@color/colorPrimary"
 
-        android:text="submit" />
+        android:text="@string/submit" />
 
     <Button
         android:id="@+id/signup"
@@ -55,8 +55,8 @@
         android:layout_alignParentRight="true"
         android:layout_below="@id/submit"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
+        android:layout_marginEnd="@dimen/marginEd"
+        android:layout_marginRight="@dimen/marginRight"
 
 
         android:text="register" />
