@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="firstname">16pt</dimen>
+    <dimen name="lastname">16pt</dimen>
+    <dimen name="email">16pt</dimen>
+    <dimen name="paddingRight">16pt</dimen>
+    <dimen name="marginTop">74dp</dimen>
+    <dimen name="password">53dp</dimen>
+    <dimen name="marginRight">18dp</dimen>
+    <dimen name="marginEnd">18dp</dimen>
+</resources>
